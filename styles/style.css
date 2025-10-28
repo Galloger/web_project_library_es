@@ -343,6 +343,7 @@
 .footer__columns {
   display: flex;
   align-items: flex-start;
+  margin-bottom: 100px;
 }
 .footer__column {
   min-width: 200px;
@@ -350,7 +351,10 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-right: auto;
+}
+.footer__column_content_logo {
+  margin: auto;
+  margin-left: 0;
 }
 
 .footer__column_content_hours {
@@ -363,8 +367,8 @@
 }
 
 .footer__logo {
-  width: 80px;
-  height: 50px;
+  width: 50px;
+  height: 80px;
   object-fit: contain;
 }
 
