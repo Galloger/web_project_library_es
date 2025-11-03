@@ -367,6 +367,7 @@
 }
 .footer__column-link {
   color: #fff;
+  text-decoration: none !important;
 }
 
 .footer__logo {
@@ -397,15 +398,11 @@
   margin-bottom: 8px;
 }
 
-.footer .nav__link {
-  color: #fff;
-  text-decoration: none;
-}
-
 .footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
+  text-decoration: none !important;
 }
 
 .footer__copyright {
